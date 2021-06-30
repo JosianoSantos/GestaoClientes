@@ -7,9 +7,9 @@
 
 ## Como rodar a aplicação na sua máquina
 ### Há duas opções:
-#### 1 -  Usando Docker com as seguintes imagens disponibilizadas no DockerHub
-####  [Api](https://josianos)
-####  [App Angular](https://josianos)
+#### 1 -  Usando Docker com os arquivos em suas respectivas pastas (api e app)
+####
+#### 
 ##
 #### 2 - Seguindo os seguintes passos:
 

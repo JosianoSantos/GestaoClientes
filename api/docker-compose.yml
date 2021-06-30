@@ -4,17 +4,8 @@ services:
   api:
     build: app
     command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
-    container_name: clientes-api
+    container_name: api
     volumes:
-      - .:/clientes-api
+      - .:/api
     ports:
       - "8000:8000"
-  app:
-    build: app
-    container_name: app
-    volumes:
-      - .:/app
-    ports:
-      - "4200:4200"
-    depends_on:
-      - api
