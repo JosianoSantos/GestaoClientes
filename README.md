@@ -34,7 +34,7 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-### Para rodas testes da API:
+### Para rodar testes da API:
 
 ```sh
 python manage.py test
