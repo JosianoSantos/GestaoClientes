@@ -33,7 +33,7 @@ export class ClienteService {
     return this.http.delete(`${baseUrl}/delete/${id}`);
   }
 
-  buscar(id: any, nome: any, idade: any, cidade: any, ordenar: any, pagina?: string): Observable<any> {
+  buscar(id: any, nome: any, idade: any, cidade: any, ordenar: any, pagina ='1'): Observable<any> {
     return this.http.get<any>(`${baseUrl}?id=${id}&nome=${nome}&idade=${idade}&cidade=${cidade}&ordenar=${ordenar}&page=${pagina}`);
   }
 }

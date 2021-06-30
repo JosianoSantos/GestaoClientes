@@ -13,8 +13,8 @@
 ##
 #### 2 - Seguindo os seguintes passos:
 
-###App Angular
-####Na raiz do projeto digite os seguintes comandos:
+### App Angular
+#### Na raiz do projeto digite os seguintes comandos:
 
 ```sh
 npm install
@@ -26,7 +26,7 @@ ng serve
 ### Api Django
 #### *Recomenda-se a utilização virtualenv
 
-####Na raiz do projeto digite os seguintes comandos:
+#### Na raiz do projeto digite os seguintes comandos:
 ```sh
 pip install -r requirements.txt
 ```
@@ -40,10 +40,10 @@ python manage.py runserver
 python manage.py test
 ```
 
-###Django Admin
+### Django Admin
 
-####A api utiliza django admin para uma melhor gestão dos registros, 
-Basta acessar http://localhost:8000/admin 
+#### A api utiliza django admin para uma melhor gestão dos registros, 
+basta acessar http://localhost:8000/admin 
 
 Há um usuário de teste com as seguintes credenciais:
 
@@ -57,7 +57,6 @@ senha: 12345678
 
 * Github: [@JosianoSantos](https://github.com/JosianoSantos)
 * LinkedIn: [@JosianoSantos](https://linkedin.com/in/JosianoSantos)
-
 
 
 
